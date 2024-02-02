@@ -1,0 +1,72 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+#profile-container {
+  display: inline-block;
+}
+
+#profile-image {
+  max-width: 40%;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  color: #007bff;
+}
+
+h2,
+h3 {
+  color: #28a745;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+#programming-languages h2,
+#education h2 {
+  color: #6c757d;
+  border-bottom: 2px solid #6c757d;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+#education strong {
+  color: #007bff;
+}
+
+#education em {
+  color: #6c757d;
+}
+
+.additional-paragraph {
+  color: #dc3545;
+  font-style: italic;
+}
+
+@media only screen and (max-width: 600px) {
+  #profile-container {
+    transform: rotate(0);
+  }
+
+  #profile-image {
+    transform: rotate(0);
+  }
+}
